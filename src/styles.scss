@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.pull-right {
+  float:right;
+}
+
+.pull-left {
+  float:left;
+}
+
+.inline{
+  display:inline-block;
+}
+
+body,html {
+  background-color:$lighter;
+}
+
+h1,h2,h3,h4,h5 {
+  color: #FFF;
+}
+
+p {
+  color:#494544;
+}
+
+.text-accent {
+  color:$accent;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-primary {
+  background-color: $accent;
+  border:none;
+  outline: none;
+  color: $main;
+  transition: 0.25s;
+  &:hover {
+    background-color: darken($accent,20%);
+  }
+}
+
+a {
+  transition: 0.25s;
+  cursor:pointer;
+  &:hover{
+    color: $main;
+  }
+}

@@ -1,4 +1,28 @@
-.card {
-  padding:20px;
-  margin-top:20px;
+@import "../../variables";
+
+.card{
+  padding: 0;
+  margin: 20px auto;
+  .card-body {
+    padding:20px;
+    margin-top:20px;
+  }
+}
+
+.btn-outline{
+  color: $main;
+  border: 1px solid;
+  background-color: transparent;
+  transition: .1s;
+  &:hover{
+    color: white;
+    background-color: rgba(0,0,0,.4);
+  }
+}
+
+
+
+
+.account-btn{
+  margin: 0 15px 0 15px;
 }

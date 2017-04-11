@@ -1,7 +1,22 @@
 <div class="account container">
   <div style="margin-top:25px;" class="row">
     <div class="col-lg-12">
-      <h1>Your Prescriptions</h1>
+      <div class="row">
+        <div class="col-10">
+          <div ngbDropdown class="d-inline-block">
+            <h1 id="dropdownMenu1" ngbDropdownToggle> My Monthly Meds</h1>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <button class="dropdown-item">All Prescriptions</button>
+              <button class="dropdown-item">My Monthly Meds</button>
+              <button class="dropdown-item">Dad's Meds</button>
+              <button class="dropdown-item">Mom's Meds</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <button class="btn btn-primary btn-lg">Refill Bundle</button>
+        </div>
+      </div>
       <hr/>
     </div>
   </div>
@@ -10,11 +25,12 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
-            <img class="img-circle" src="http://placehold.it/125x125">
+            <img class="img-circle" height="125px" width="125px" src="https://pillbox.nlm.nih.gov/assets/large/006034211.jpg">
           </div>
           <div class="col-lg-7 col-md-6 col-sm-6">
-            <h3 class="text-gray-dark">Lisinopril 10 mg</h3>
-            <p>Last Filled: 02/15/2017</p>
+            <h3 class="text-gray-dark">lisinopril 10 mg</h3>
+            <p>Nickname: <span class="underline">Blood Pressure</span></p>
+            <p>Last Filled: 04/14/2017</p>
             <p>Refills: 5 until 02/15/2018</p>
           </div>
         </div>
@@ -30,11 +46,12 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
-            <img class="img-circle" src="http://placehold.it/125x125">
+            <img class="img-circle" height="125px" width="125px" src="https://pillbox.nlm.nih.gov/assets/large/68180-0479-01_B4215A0A.jpg">
           </div>
           <div class="col-lg-7 col-md-6 col-sm-6">
-            <h3 class="text-gray-dark">Simvastatin 10 mg</h3>
-            <p>Last Filled: 02/15/2017</p>
+            <h3 class="text-gray-dark">simvastatin 20 mg</h3>
+            <p>Nickname: <span class="underline">Cholesterol</span></p>
+            <p>Last Filled: 04/14/2017</p>
             <p>Refills: 5 until 02/15/2018</p>
           </div>
         </div>
@@ -50,11 +67,12 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
-            <img class="img-circle" src="http://placehold.it/125x125">
+            <img class="img-circle" height="125px" width="125px" src="https://pillbox.nlm.nih.gov/assets/large/006030026.jpg">
           </div>
           <div class="col-lg-7 col-md-6 col-sm-6">
-            <h3 class="text-gray-dark">Aspirin 10 mg</h3>
-            <p>Last Filled: 02/15/2017</p>
+            <h3 class="text-gray-dark">aspirin 81 mg</h3>
+            <p>Nickname: <span class="underline">Baby Aspirin</span></p>
+            <p>Last Filled: 04/14/2017</p>
             <p>Refills: 5 until 02/15/2018</p>
           </div>
         </div>
@@ -70,11 +88,12 @@
       <div class="card-body">
         <div class="row">
           <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4">
-            <img class="img-circle" src="http://placehold.it/125x125">
+            <img class="img-circle" height="125px" width="125px" src="https://pillbox.nlm.nih.gov/assets/large/001433125.jpg">
           </div>
           <div class="col-lg-7 col-md-6 col-sm-6 col-xs-6">
-            <h3 class="text-gray-dark">Lisinopril 10 mg</h3>
-            <p>Last Filled: 02/15/2017</p>
+            <h3 class="text-gray-dark">hctz 12.5 mg</h3>
+            <p>Nickname: <span class="underline">Water pill</span></p>
+            <p>Last Filled: 04/14/2017</p>
             <p>Refills: 5 until 02/15/2018</p>
           </div>
         </div>
